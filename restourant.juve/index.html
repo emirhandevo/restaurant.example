@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Bites | Restaurant</title>
+    <!-- Google Font --> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        html{scroll-behavior: smooth;}
+    </style>
+
+</head>
+<body>
+    <!-- HEADER -->
+    <header id="home">
+        <div class="logo">URBAN BITES</div>
+        <div class="burger">
+            ☰
+        </div>
+        <nav>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+
+        </nav>
+    </header>
+
+<main>
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="parallax" data-speed="0.14">Fresh Food.<br>Modern Taste.</h1>
+            <p>A contemporary restaurant experience crafted for food lovers.</p>
+            <a href="#menu" class="hero-btn">View Menu</a>
+        </div>
+    </section>
+
+    <section class="menu reveal" id="menu">
+        <h2>Our Menu</h2>
+
+        <div class="menu-grid">
+            <div class="menu-card">
+                <h3>Burger Deluxe</h3>
+                <p>Juicy beef burger with veggies.</p>
+                <span>$12</span>
+            </div>
+
+            <div class="menu-card">
+                <h3>Chicken Bowl</h3>
+                <p>Healthy grilled chicken with veggies.</p>
+                <span>$10</span>
+            </div>
+
+            <div class="menu-card">
+                <h3>Pasta Special</h3>
+                <p>Italian pasta with creamy sauce.</p>
+                <span>$14</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Get in Touch</h2>
+        <p>Have a question or want to make a reservation?</p>
+        
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+</main>
+
+<footer id="about">
+<div class="footer-container">
+    
+    <div class="footer-socials">
+        <h3>Connect</h3>
+        <ul>
+            <li><a href="https://github.com/emirhandevo" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/emirhan-deniz-9b2230374" target="_blank">LinkedIn</a></li>
+            <li><a href="mailto:tycoon.34@outlook.com">Email</a></li>
+        </ul>
+    </div>
+
+    <div class="footer-about">
+        <h3 id="about">About</h3>
+        <p id="about-text">I’m Emirhan, a Front-End Developer focused on building modern, fast, and responsive web interfaces.</p>
+    </div>
+
+    <div class="footer-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+        </ul>
+    </div>
+
+</div>
+
+<p class="footer-copy">© 2025 Emirhan Deniz • All rights reserved</p>
+</footer>
+
+
+<script src="app.js"></script>
+</body>
+</html>
